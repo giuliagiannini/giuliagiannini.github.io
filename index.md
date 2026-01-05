@@ -3,6 +3,8 @@ title: "Home"
 permalink: /
 layout: single
 author_profile: true
+sidebar:
+  nav: "main"
 ---
 
 # Giulia Giannini
