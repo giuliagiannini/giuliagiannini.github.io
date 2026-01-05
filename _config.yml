@@ -1,4 +1,33 @@
 theme: jekyll-theme-minimal
+
 title: "Giulia Giannini"
-description: "Cosmologist – Dark Energy Survey (DES)"
-logo: /assets/profile.jpg   # puoi aggiungerlo dopo
+description: "Cosmologist • Weak Lensing • Multi-Probe Cosmology • DES & LSST-DESC"
+
+logo: /assets/profile.jpg
+
+# Custom CSS
+sass:
+  style: compressed
+
+include:
+  - assets/custom.css
+
+# Navigation (top menu)
+navigation:
+  - title: "Home"
+    url: /
+  - title: "CV"
+    url: /cv
+  - title: "Research"
+    url: /research
+  - title: "Publications"
+    url: /publications
+
+# Sidebar links
+links:
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/"
+  - name: "ADS"
+    url: "https://ui.adsabs.harvard.edu/"
+  - name: "Email"
+    url: "mailto:TUO_EMAIL"
