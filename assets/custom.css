@@ -1,1 +1,10 @@
+/* Hide "View my GitHub profile" link */
+footer a[href*="github.com"] {
+    display: none !important;
+}
 
+/* Slightly nicer spacing for the sidebar image */
+img[src*="profile.jpg"] {
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
