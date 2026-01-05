@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/assets/DSC02069_cropped3_mini.jpeg" alt="Giulia Giannini" width="180">
+  <img src="/assets/DSC02069_cropped3_mini_copy.jpeg" alt="Giulia Giannini" width="180">
 </p>
 
 # Giulia Giannini
