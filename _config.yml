@@ -1,30 +1,24 @@
-theme: jekyll-theme-minimal
-
 title: "Giulia Giannini"
+name: "Giulia Giannini"
 description: "Cosmologist • Weak Lensing • Multi-Probe Cosmology • DES & LSST-DESC"
 
-logo: /assets/DSC02069_cropped3_mini_copy.jpeg
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-# Custom CSS
-sass:
-  style: compressed
+logo: "/assets/profile.jpg"
 
-include:
-  - assets/custom.css
+# URL base (lascia così per ora)
+url: "https://giuliagiannini.github.io"
+baseurl: ""
 
-# Sidebar links = left-side navigation
-links:
-  - name: "Home"
-    url: "/"
-  - name: "CV"
-    url: "/cv"
-  - name: "Research"
-    url: "/research"
-  - name: "Publications"
-    url: "/publications"
-  - name: "Email"
-    url: "mailto:TUO_EMAIL"
-  - name: "Google Scholar"
-    url: "https://scholar.google.com/"
-  - name: "ADS"
-    url: "https://ui.adsabs.harvard.edu/"
+# GitHub Pages settings
+plugins:
+  - jekyll-include-cache
+
+# Layout di default per le pagine
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
