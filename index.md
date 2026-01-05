@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="/assets/profile.jpg" alt="Giulia Giannini" width="180">
-</p>
-
 # Giulia Giannini
 
 Cosmologist working on weak lensing, galaxy–galaxy lensing and multi-probe cosmology within the **Dark Energy Survey (DES)** and LSST-DESC.  
