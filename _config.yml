@@ -12,22 +12,19 @@ sass:
 include:
   - assets/custom.css
 
-# Navigation (top menu)
-navigation:
-  - title: "Home"
-    url: /
-  - title: "CV"
-    url: /cv
-  - title: "Research"
-    url: /research
-  - title: "Publications"
-    url: /publications
-
-# Sidebar links
+# Sidebar links = left-side navigation
 links:
+  - name: "Home"
+    url: "/"
+  - name: "CV"
+    url: "/cv"
+  - name: "Research"
+    url: "/research"
+  - name: "Publications"
+    url: "/publications"
+  - name: "Email"
+    url: "mailto:TUO_EMAIL"
   - name: "Google Scholar"
     url: "https://scholar.google.com/"
   - name: "ADS"
     url: "https://ui.adsabs.harvard.edu/"
-  - name: "Email"
-    url: "mailto:TUO_EMAIL"
