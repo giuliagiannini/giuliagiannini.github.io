@@ -16,13 +16,13 @@ author_profile: false
 
 ## Education
 
-- PhD in Physics, Institut de Fisica d’Altes Energies (IFAE), Barcelona, Spain (10/2017 – 09/2022)
+- PhD in Physics, Institut de Fisica d’Altes Energies (IFAE), Barcelona, Spain (10/2017 – 09/2022) <br>
 Thesis: "Photometric redshift calibration in DES Y3"; Advisor: Ramon Miquel
 
-- MSc of Science in Physics, University of Zurich, Switzerland (10/2010 - 07/2014)
+- MSc of Science in Physics, University of Zurich, Switzerland (10/2010 - 07/2014) <br>
 Thesis: "Search for Vector-like quark T’ in boosted top + MET channel at CMS experiment"; Advisor: Florencia Canelli
 
-- BSc of Science in Physics, University of Bologna, Italy (10/2010 - 07/2014)
+- BSc of Science in Physics, University of Bologna, Italy (10/2010 - 07/2014) <br>
 Thesis: "Characterization of a MCP-PMT detector for timing and spatial resolution for the ALICE experiment"; Advisor: Maurizio Basile
 
 ---
@@ -56,9 +56,9 @@ Thesis: "Characterization of a MCP-PMT detector for timing and spatial resolutio
 
 ## Invited Talks
 
-- XI Meeting on Fundamental Cosmology (Santander, Spain)
+- XI Meeting on Fundamental Cosmology (Santander, Spain) <br>
 Invited Talk: TBD
-- KIPAC (Stanford)
+- KIPAC (Stanford) <br>
 Seminar: What will the Legacy of DES be?
 - SLAC (Stanford)
 Seminar: What will the Legacy of DES be?
