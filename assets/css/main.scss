@@ -35,7 +35,7 @@ h4 { font-size: 1.15rem; }  /* ~18px */
    ============================================================ */
 /* Aumenta SOLO i link nel menu in alto */
 .masthead__menu-item a {
-  font-size: 1.1rem !important;   /* aumenta qui → es. 1.2rem, 1.3rem */
+  font-size: 1.3rem !important;   /* aumenta qui → es. 1.2rem, 1.3rem */
   font-weight: 500;
 }
 
@@ -62,12 +62,12 @@ h4 { font-size: 1.15rem; }  /* ~18px */
 
 /* Link nella sidebar (Email, ADS, Scholar...) */
 .author__urls li a {
-  font-size: 1.1rem !important;     /* aumenta qui */
+  font-size: 1.2rem !important;     /* aumenta qui */
 }
 
 /* Foto più grande */
 .sidebar .author__avatar img {
-  max-width: 260px;                 /* aumentare → es. 300px */
+  max-width: 300px;                 /* aumentare → es. 300px */
 }
 
 
