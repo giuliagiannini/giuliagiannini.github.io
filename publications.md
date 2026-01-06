@@ -7,7 +7,6 @@ sidebar:
 author_profile: false
 ---
 
-# Publications
 
 This page collects links to my publications and related resources.  
 External profiles are usually the most up to date.
