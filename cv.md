@@ -77,3 +77,24 @@ Seminar: DES Year 3 Results: Impact on cosmology of using a novel redshift calib
 Invited Talk: Dark Energy Survey Year 3: Clustering redshifts – calibration of the weak lensing source redshift distributions
 - **Photometric Redshift Workshop UPenn (Philadelphia) 02/2020** <br>
 Invited Talk: Calibrating the DES Weak Lensing Source Galaxies with Clustering Redshifts
+
+## Contributed Talks
+
+- **Talk at COSMO’24 (Kyoto, Japan) 10/2024** <br>
+Understanding the DES 6 3x2pt Analysis: the contribution of Galaxy-Galaxy Lensing and Photometric Redshifts
+- **Talk at COSMO’23 (IFT, Madrid)** <br>
+DES Y6 3x2pt: Galaxy-galaxy lensing
+- **Talk at Moriond Cosmology Conference (La Thuile, Italy)** <br>
+DES Year 3 Results: Redshift Calibration of the Maglim Lens Sample
+- **Talk at COSMO’21 (online)** <br>
+Redshift Calibration of Dark Energy Survey Year 3 Maglim Lens Sample
+- **Talk at Statistical Challenges for Modern Astronomy VII (online)** <br>
+09/2023 01/2022 08/2021
+06/2021
+Redshift Calibration of Dark Energy Survey Year 3 Maglim Lens Sample using Self-Organizing Maps & Clustering Redshifts
+- **Talk at Cosmology from Home (online) 06/2021** <br>
+Redshift Calibration of DES Year 3 Maglim Lens Sample using Self-Organizing Maps & Clustering Redshifts
+- **Talk at Cosmology from Home (online)** <br>
+Redshift Estimation Techniques for the Dark Energy Survey Y3 Data
+- **10 Dark Energy Survey Collaboration Meetings** <br>
+
