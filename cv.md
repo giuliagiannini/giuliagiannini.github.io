@@ -98,3 +98,25 @@ Redshift Calibration of DES Year 3 Maglim Lens Sample using Self-Organizing Maps
 Redshift Estimation Techniques for the Dark Energy Survey Y3 Data
 - **10 Dark Energy Survey Collaboration Meetings** <br>
 
+## Outreach 
+
+- Volunteer, Adler Planetarium (Chicago)
+- Speaker, Astronomy on Tap (Chicago)
+- Lecturer, LifeLong Learning Programme (elderly audiences)
+- Co-author, article in NOIRLab’s The Mirror magazine
+- Lecturer, “Bojos per la ci`encia” Programme, Fundacio ́ Catalunya La Pedrera
+- Lecturer, Catalan government outreach for outstanding high school students
+- Speaker, 100tifiques (International Day of Women and Girls in Science)
+- Speaker, Astronomy on Tap (Barcelona)
+- Media Outreach: DES Y3 video; interviews with Il Resto del Carlino, Rai News24, Radio3
+09/2020 2019 - 2025
+
+## Other Relevant Experience
+
+- **Astrostatistics School on Statistical Challenges for Modern Astronomy <br>
+  Penn State University (online)
+- **Reviewer for Peer-Reweied Journals** <br>
+Monthly Notices of the Royal Astronominal Society, JCAP, Astronomy and Computing
+- **III Joint ICTP-Trieste/ICTP-SAIFR School on Observational Cosmology, Sa ̃o Paulo, Brazil
+- **Observations for PAU Experiment** <br>
+William Herschel Telescope, La Palma (6 nights)
