@@ -5,8 +5,6 @@ layout: single
 author_profile: false
 ---
 
-
-
 ---
 
 ## Academic appointments
@@ -33,12 +31,8 @@ Thesis: "Characterization of a MCP-PMT detector for timing and spatial resolutio
 ## Awards 
 
 - Juan de la Cierva Fellowship
-
-- CCAPP Ohio State Fellowship
-Declined in favour of the KICP Associate Fellow position
-
-- La Caixa INPhINIT Doctoral Fellowship Programme
-H2020 / Marie Skłodowska-Curie Actions
+- CCAPP Ohio State Fellowship (Declined in favour of the KICP Associate Fellow position)
+- La Caixa INPhINIT Doctoral Fellowship Programme (H2020 / Marie Skłodowska-Curie Actions)
 
 ---
 
