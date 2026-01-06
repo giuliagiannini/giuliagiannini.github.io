@@ -7,8 +7,6 @@ sidebar:
 author_profile: false
 ---
 
-# Research
-
 My work focuses on using weak gravitational lensing and related probes to study the large-scale structure of the Universe and constrain cosmological models, with particular emphasis on systematics and robust inference.
 
 ---
