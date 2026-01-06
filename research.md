@@ -23,7 +23,7 @@ The DES Year 6 (Y6) weak-lensing analysis represents the most precise measuremen
 ### Example Figures (placeholders)
 ![placeholder](_data/figure_wl.jpg)  
 
-
+[Dark Energy Survey Collaboration et al., 2026](https://link-al-paper)
 
 
 ### & Galaxy–Galaxy Lensing
@@ -41,6 +41,8 @@ Galaxy–galaxy lensing (GGL) links the shapes of background galaxies to the pos
 
 ![placeholder](_data/figure_ggl.jpg)  
 
+[Giannini et al., 2026](https://link-al-paper)
+
 ---
 
 ### Photometric Redshifts and Calibration
@@ -56,11 +58,14 @@ For DES Y6, I led the development and validation of the SOMPZ redshift calibrati
 
 ![placeholder](_data/figure_photoz_y6.jpg)  
 
+[Giannini et al., 2025](https://link-al-paper)
 
 In DES Y3, I led the calibration of the *lens* galaxy samples through a hybrid method combining SOMPZ deep-field mapping with clustering-based redshifts (wz). This allowed us to build high-precision redshift distributions for the different MagLim lens bins and to propagate their uncertainties into cosmological inference. I also quantified the impact of redshift mis-calibration on galaxy–galaxy lensing and galaxy clustering cosmology, ensuring consistency across probes and demonstrating the robustness of DES results.
 
 ![placeholder](_data/figure_photoz_y3.jpg)  
 
+[Giannini et al., 2025](https://link-al-paper)
 
 In DES Year 3, I co-led the calibration of source redshift distributions using clustering redshifts ("wz"). This approach cross-correlates the photometric source sample with spectroscopic galaxies to infer the underlying redshift distribution. I developed and validated the methodology, studied its sensitivity to galaxy bias, magnification, and sample variation, and combined it with SOMPZ-based deep-field estimates. This hybrid calibration was essential to the Y3 cosmic shear and galaxy–galaxy lensing cosmology analyses.
 
+[Giannini et al., 2025](https://link-al-paper)
