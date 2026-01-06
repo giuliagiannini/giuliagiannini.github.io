@@ -2,8 +2,6 @@
 title: "CV"
 permalink: /cv/
 layout: single
-sidebar:
-  nav: "main"
 author_profile: false
 ---
 
