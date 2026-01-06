@@ -1,3 +1,11 @@
+@import "minimal-mistakes";
+
+// Make sidebar author photo larger
+.sidebar .author__avatar img {
+  max-width: 260px; // increase this to 300 if you want it huge
+}
+
+
 /* Hide "View my GitHub profile" link */
 footer a[href*="github.com"] {
     display: none !important;
