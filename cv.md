@@ -113,10 +113,7 @@ Redshift Estimation Techniques for the Dark Energy Survey Y3 Data
 
 ## Other Relevant Experience
 
-- **Astrostatistics School on Statistical Challenges for Modern Astronomy <br>
-  Penn State University (online)
-- **Reviewer for Peer-Reweied Journals** <br>
-Monthly Notices of the Royal Astronominal Society, JCAP, Astronomy and Computing
-- **III Joint ICTP-Trieste/ICTP-SAIFR School on Observational Cosmology, Sa ̃o Paulo, Brazil
-- **Observations for PAU Experiment** <br>
-William Herschel Telescope, La Palma (6 nights)
+- Astrostatistics School on Statistical Challenges for Modern Astronomy, Penn State University (online)
+- Reviewer for Peer-Reweied Journals, Monthly Notices of the Royal Astronominal Society, JCAP, Astronomy and Computing
+- III Joint ICTP-Trieste/ICTP-SAIFR School on Observational Cosmology, Sa ̃o Paulo, Brazil
+- Observations for PAU Experiment, William Herschel Telescope, La Palma (6 nights)
