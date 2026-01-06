@@ -3,6 +3,7 @@ title: " "
 permalink: /
 layout: single
 author_profile: true
+author: GiuliaGiannini
 ---
 
 # Giulia Giannini
