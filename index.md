@@ -12,3 +12,7 @@ I am a cosmologist working on weak lensing, galaxy–galaxy lensing within the *
 Currently based at **ICE-CSIC (Barcelona)** as a Juan de la Cierva Fellow.
 
 
+  location    : "ICE-CSIC (Barcelona, Spain)"
+  email       : "ggiannini at ice.csic.es"
+
+
