@@ -1,12 +1,6 @@
 GiuliaGiannini:
   name        : "Giulia Giannini"
   avatar      : "/assets/DSC02069_cropped3_mini_copy.jpeg"
-  bio         : "Cosmologist • Weak Lensing • Multi-Probe Cosmology • DES & LSST-DESC"
-  location    : "Barcelona, Spain"
-  links:
-    - label: "Email"
-      url: "mailto:TUO_EMAIL"
-    - label: "Google Scholar"
-      url: "https://scholar.google.com/"
-    - label: "ADS"
-      url: "https://ui.adsabs.harvard.edu/"
+  bio         : "Cosmologist • Weak Lensing • DES & LSST-DESC"
+  location    : "ICE-CSIC (Barcelona, Spain)"
+  email       : "ggiannini at ice.csic.es
