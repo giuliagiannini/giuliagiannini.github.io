@@ -12,6 +12,9 @@ My research focuses on extracting robust cosmological information from galaxy su
 
 ## Weak Lensing 
 
+Weak gravitational lensing is the subtle distortion of galaxy shapes caused by the gravitational field of the large-scale structure of the Universe. As light travels from distant galaxies to us, it is deflected by the intervening distribution of dark matter, imprinting tiny but coherent shear patterns on the sky. By measuring these distortions statistically across hundreds of millions of galaxies, we can map the underlying matter field, test models of cosmic acceleration, and constrain the physics that governs the growth of structure. Because the shear signal is extremely small, weak-lensing cosmology relies on precise shape measurements, accurate photometric redshifts, and a detailed understanding of observational and astrophysical systematics—areas in which my work is primarily focused within the Dark Energy Survey.
+
+
 
 ### DES Year 6: Weak Lensing Cosmology
 
