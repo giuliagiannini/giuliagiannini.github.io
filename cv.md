@@ -9,8 +9,10 @@ author_profile: false
 
 ## Academic appointments
 
-- Juan de la Cierva Postdoctoral Fellow, Center for Space Science (ICE-CSIC), Barcelona, Spain (09/2025 - present)
-- KICP Associate Postdoctoral Fellow, University of Chicago, USA (10/2022 – 09/2025)
+- **Juan de la Cierva Postdoctoral Fellow** <br>
+Center for Space Science (ICE-CSIC), Barcelona, Spain (09/2025 - present)
+- **KICP Associate Postdoctoral Fellow** <br>
+University of Chicago, USA (10/2022 – 09/2025)
 
 ---
 
@@ -59,19 +61,19 @@ Thesis: "Characterization of a MCP-PMT detector for timing and spatial resolutio
 
 ## Invited Talks
 
-- XI Meeting on Fundamental Cosmology (Santander, Spain) <br>
+- **XI Meeting on Fundamental Cosmology (Santander, Spain)** <br>
 Invited Talk: TBD
-- KIPAC (Stanford) <br>
+- **KIPAC (Stanford)** <br>
 Seminar: What will the Legacy of DES be?
-- SLAC (Stanford)
+- **SLAC (Stanford)** <br>
 Seminar: What will the Legacy of DES be?
-- American Astronomical Society (National Harbor, USA)
+- **American Astronomical Society (National Harbor, USA)** <br>
 Invited Talk: Calibrating Redshifts: Insights from the DES 3x2pt Experience for Next-Generation Surveys
-- Paris Centre for Cosmological Physics (online) 05/2022
+- **Paris Centre for Cosmological Physics (online) 05/2022** <br>
 Invited Talk: DES Year 3 Results: Impact on cosmology of using a novel redshift calibration on the MagLim lens sample
-- Center for Astrophysics — Harvard & Smithsonian (Boston) 04/2022
+- **Center for Astrophysics — Harvard & Smithsonian (Boston) 04/2022** <br>
 Seminar: DES Year 3 Results: Impact on cosmology of using a novel redshift calibration on the MagLim lens sample
-- Euclid Collaboration Meeting (as guest) 05/2021
+- **Euclid Collaboration Meeting (as guest) 05/2021** <br>
 Invited Talk: Dark Energy Survey Year 3: Clustering redshifts – calibration of the weak lensing source redshift distributions
-- Photometric Redshift Workshop, UPenn (Philadelphia) 02/2020
+- **Photometric Redshift Workshop UPenn (Philadelphia) 02/2020** <br>
 Invited Talk: Calibrating the DES Weak Lensing Source Galaxies with Clustering Redshifts
