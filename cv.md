@@ -18,7 +18,7 @@ author_profile: false
 
 ## Education
 
-– PhD in Physics, Institut de Fisica d’Altes Energies (IFAE), Barcelona, Spain (10/2017 – 09/2022)
+- PhD in Physics, Institut de Fisica d’Altes Energies (IFAE), Barcelona, Spain (10/2017 – 09/2022)
 Thesis: "Photometric redshift calibration in DES Y3"; Advisor: Ramon Miquel
 
 - MSc of Science in Physics, University of Zurich, Switzerland (10/2010 - 07/2014)
