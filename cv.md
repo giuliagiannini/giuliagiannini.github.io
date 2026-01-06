@@ -7,7 +7,6 @@ sidebar:
 author_profile: false
 ---
 
-# Curriculum Vitae
 
 
 ---
