@@ -2,8 +2,6 @@
 title: "Research"
 permalink: /research/
 layout: single
-sidebar:
-  nav: "main"
 author_profile: false
 ---
 
