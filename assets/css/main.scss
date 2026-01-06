@@ -1,30 +1,79 @@
 ---
 ---
 
-/* Importa il tema base */
+/* Import base theme */
 @import "minimal-mistakes";
 
-/* FONT GLOBALE: leggermente più piccolo del default, ma non minuscolo */
+/* ============================================================
+   1. FONT GLOBALE (paragrafi, testo normale)
+   ============================================================ */
 html {
-  font-size: 16px;   /* cambia questo numero se vuoi più grande/più piccolo */
+  font-size: 15px;     /* Cambia qui per aumentare/diminuire il testo generale */
 }
 
-/* Applica in modo uniforme a contenuto e sidebar */
 body,
 .page__content,
 .page__content p,
 .sidebar {
-  font-size: 1rem !important;  /* 1rem = 15px perché lo prende da html */
+  font-size: 1rem !important;   /* 1rem = 15px perché definito sopra */
   line-height: 1.6;
 }
 
-/* Titoli proporzionati al nuovo font */
-h1 { font-size: 1.9rem; }
-h2 { font-size: 1.6rem; }
-h3 { font-size: 1.35rem; }
-h4 { font-size: 1.15rem; }
 
-/* NASCONDI SOLO IL LINK FEED NEL FOOTER */
+/* ============================================================
+   2. TITOLI (H1, H2, H3...)
+   ============================================================ */
+h1 { font-size: 1.9rem; }   /* ~28px */
+h2 { font-size: 1.6rem; }   /* ~24px */
+h3 { font-size: 1.35rem; }  /* ~20px */
+h4 { font-size: 1.15rem; }  /* ~18px */
+/* Sentiti libera di aumentare o diminuire uno alla volta */
+
+
+/* ============================================================
+   3. NAVBAR IN ALTO (header menu)
+   ============================================================ */
+/* Aumenta SOLO i link nel menu in alto */
+.masthead__menu-item a {
+  font-size: 1.1rem !important;   /* aumenta qui → es. 1.2rem, 1.3rem */
+  font-weight: 500;
+}
+
+/* Aumenta il font del titolo del sito (che appare nell’header su mobile) */
+.site-title {
+  font-size: 1.3rem !important;
+}
+
+
+/* ============================================================
+   4. SIDEBAR BIO (a sinistra)
+   ============================================================ */
+/* Nome dell'autore */
+.author__name {
+  font-size: 1.3rem !important;     /* aumenta qui → es. 1.4rem, 1.5rem */
+  font-weight: 600;
+}
+
+/* Bio breve sotto il nome */
+.author__bio {
+  font-size: 1.1rem !important;     /* aumenta qui */
+  line-height: 1.45;
+}
+
+/* Link nella sidebar (Email, ADS, Scholar...) */
+.author__urls li a {
+  font-size: 1.1rem !important;     /* aumenta qui */
+}
+
+/* Foto più grande */
+.sidebar .author__avatar img {
+  max-width: 260px;                 /* aumentare → es. 300px */
+}
+
+
+/* ============================================================
+   5. Rimuovere il link "FEED" nel footer
+   ============================================================ */
 .page__footer a[href$="feed.xml"],
 .page__footer a[href*="feed.xml"] {
   display: none !important;
