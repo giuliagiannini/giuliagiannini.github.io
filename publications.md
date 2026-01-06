@@ -2,8 +2,6 @@
 title: "Publications"
 permalink: /publications/
 layout: single
-sidebar:
-  nav: "main"
 author_profile: false
 ---
 
