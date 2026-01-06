@@ -10,8 +10,6 @@ My research focuses on extracting robust cosmological information from galaxy su
 
 ---
 
-## Main Themes
-
 ## Weak Lensing 
 
 
