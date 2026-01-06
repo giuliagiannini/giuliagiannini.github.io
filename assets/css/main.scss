@@ -35,7 +35,7 @@ h4 { font-size: 1.15rem; }  /* ~18px */
    ============================================================ */
 /* Aumenta SOLO i link nel menu in alto */
 .masthead__menu-item a {
-  font-size: 1.3rem !important;   /* aumenta qui → es. 1.2rem, 1.3rem */
+  font-size: 1.8rem !important;   /* aumenta qui → es. 1.2rem, 1.3rem */
   font-weight: 500;
 }
 
@@ -50,19 +50,19 @@ h4 { font-size: 1.15rem; }  /* ~18px */
    ============================================================ */
 /* Nome dell'autore */
 .author__name {
-  font-size: 1.3rem !important;     /* aumenta qui → es. 1.4rem, 1.5rem */
+  font-size: 1.8rem !important;     /* aumenta qui → es. 1.4rem, 1.5rem */
   font-weight: 600;
 }
 
 /* Bio breve sotto il nome */
 .author__bio {
   font-size: 1.1rem !important;     /* aumenta qui */
-  line-height: 1.45;
+  line-height: 1.6;
 }
 
 /* Link nella sidebar (Email, ADS, Scholar...) */
 .author__urls li a {
-  font-size: 1.2rem !important;     /* aumenta qui */
+  font-size: 1.6rem !important;     /* aumenta qui */
 }
 
 /* Foto più grande */
