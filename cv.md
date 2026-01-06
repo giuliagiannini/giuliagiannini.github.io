@@ -54,8 +54,21 @@ Thesis: "Characterization of a MCP-PMT detector for timing and spatial resolutio
 - Mentor of Kate Overdeck (Master student)
 - Teaching Assistant, Physics Lab courses (36 hours), University of Zurich
 
-## Selected Responsibilities & Leadership
+## Invited Talks
 
-- First author of two key DES Year 6 cosmology papers
-- Lead roles in weak lensing, galaxy–galaxy lensing, and photometric redshift calibration within DES
-- [Add more as needed]
+- XI Meeting on Fundamental Cosmology (Santander, Spain)
+Invited Talk: TBD
+- KIPAC (Stanford)
+Seminar: What will the Legacy of DES be?
+- SLAC (Stanford)
+Seminar: What will the Legacy of DES be?
+- American Astronomical Society (National Harbor, USA)
+Invited Talk: Calibrating Redshifts: Insights from the DES 3x2pt Experience for Next-Generation Surveys
+- Paris Centre for Cosmological Physics (online) 05/2022
+Invited Talk: DES Year 3 Results: Impact on cosmology of using a novel redshift calibration on the MagLim lens sample
+- Center for Astrophysics — Harvard & Smithsonian (Boston) 04/2022
+Seminar: DES Year 3 Results: Impact on cosmology of using a novel redshift calibration on the MagLim lens sample
+- Euclid Collaboration Meeting (as guest) 05/2021
+Invited Talk: Dark Energy Survey Year 3: Clustering redshifts – calibration of the weak lensing source redshift distributions
+- Photometric Redshift Workshop, UPenn (Philadelphia) 02/2020
+Invited Talk: Calibrating the DES Weak Lensing Source Galaxies with Clustering Redshifts
