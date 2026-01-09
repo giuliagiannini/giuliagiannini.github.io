@@ -4,6 +4,10 @@ permalink: /
 layout: single
 ---
 
+
+<h1 class="home-name">Giulia Giannini</h1>
+
+
 <div class="home-avatar">
   <img src="/assets/DSC02069_cropped3_mini_copy.jpeg" alt="Giulia Giannini" loading="lazy" />
 </div>
