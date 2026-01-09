@@ -8,13 +8,27 @@ layout: single
 <h1 class="home-name">Giulia Giannini</h1>
 
 
-<div class="home-avatar">
+<!-- <div class="home-avatar">
   <img src="/assets/DSC02069_cropped3_mini_copy.jpeg" alt="Giulia Giannini" loading="lazy" />
+</div> -->
+
+
+
+<div class="home-hero">
+  <!-- <img class="home-hero__img" src="/assets/images/giulia.jpg" alt="Giulia Giannini" /> -->
+  <img class="home-hero__img" src="/assets/DSC02069_cropped3_mini_copy.jpeg" alt="Giulia Giannini" />
+
+  <div class="home-hero__text">
+    <p>
+I am a cosmologist working on the large-scale structure of the Universe, with a focus on weak gravitational lensing and galaxy–galaxy lensing. My research aims to test models of dark energy by improving the robustness of weak-lensing analyses, with particular attention to systematic uncertainties and redshift calibration in photometric surveys.
+
+    </p>
+
+    <p>
+I am currently based at ICE–CSIC in Barcelona as a Juan de la Cierva Fellow. Over the past seven years, I have been deeply involved in the Dark Energy Survey (DES), contributing to lensing measurements and redshift calibration efforts, including work toward the Year 6 analysis. I am also a member of LSST-DESC, where I contribute primarily as a photo-z expert, supporting methodological development and cross-collaboration activities.
+    </p>
+  </div>
 </div>
-
-
-
-# Giulia Giannini
 
 
 I am a cosmologist working on the large-scale structure of the Universe, with a focus on weak gravitational lensing and galaxy–galaxy lensing. My research aims to test models of dark energy by improving the robustness of weak-lensing analyses, with particular attention to systematic uncertainties and redshift calibration in photometric surveys.
