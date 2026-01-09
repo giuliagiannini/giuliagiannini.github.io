@@ -23,5 +23,5 @@ defaults:
       type: "pages"
     values:
       layout: single
-      author_profile: true
-      author: GiuliaGiannini_onlypic
+      # author_profile: true
+      # author: GiuliaGiannini_onlypic
