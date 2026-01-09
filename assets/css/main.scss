@@ -44,6 +44,14 @@ h4 { font-size: 1.15rem; }  /* ~18px */
   font-size: 1.8rem !important;
 }
 
+.home-avatar {
+  display: block;
+  margin: 2rem auto 1.5rem;
+  width: 220px;      // ← DIMENSIONE FOTO
+  height: 220px;     // ← tienila uguale per restare quadrata
+  object-fit: cover;
+  border-radius: 6px;
+}
 
 /* ============================================================
    4. SIDEBAR BIO (a sinistra)
