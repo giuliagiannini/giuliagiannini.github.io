@@ -8,6 +8,8 @@ layout: single
   <img src="/assets/DSC02069_cropped3_mini_copy.jpeg" alt="Giulia Giannini" loading="lazy" />
 </div>
 
+
+
 # Giulia Giannini
 
 I am a cosmologist working on weak lensing, galaxy–galaxy lensing within the **Dark Energy Survey (DES)** and LSST-DESC.  
