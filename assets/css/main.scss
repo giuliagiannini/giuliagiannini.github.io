@@ -1,5 +1,8 @@
 ---
+# Only the main Sass file needs front matter
 ---
+
+@charset "utf-8";
 
 /* Import base theme */
 @import "minimal-mistakes";
@@ -8,14 +11,14 @@
    1. FONT GLOBALE (paragrafi, testo normale)
    ============================================================ */
 html {
-  font-size: 15px;     /* Cambia qui per aumentare/diminuire il testo generale */
+  font-size: 15px;
 }
 
 body,
 .page__content,
 .page__content p,
 .sidebar {
-  font-size: 1rem !important;   /* 1rem = 15px perché definito sopra */
+  font-size: 1rem !important;
   line-height: 1.6;
 }
 
@@ -23,113 +26,89 @@ body,
 /* ============================================================
    2. TITOLI (H1, H2, H3...)
    ============================================================ */
-h1 { font-size: 1.9rem; }   /* ~28px */
-h2 { font-size: 1.6rem; }   /* ~24px */
-h3 { font-size: 1.35rem; }  /* ~20px */
-h4 { font-size: 1.15rem; }  /* ~18px */
-/* Sentiti libera di aumentare o diminuire uno alla volta */
+h1 { font-size: 1.9rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.35rem; }
+h4 { font-size: 1.15rem; }
 
 
 /* ============================================================
    3. NAVBAR IN ALTO (header menu)
    ============================================================ */
-/* Aumenta SOLO i link nel menu in alto */
 .masthead__menu-item a {
-  font-size: 1.8rem !important;   /* aumenta qui → es. 1.2rem, 1.3rem */
+  font-size: 1.2rem !important;   /* 1.2–1.3 è elegante, 1.8 era troppo */
   font-weight: 500;
 }
 
-/* Aumenta il font del titolo del sito (che appare nell’header su mobile) */
 .site-title {
-  font-size: 1.8rem !important;
+  font-size: 1.4rem !important;
 }
 
 
+/* ============================================================
+   4. HOMEPAGE
+   ============================================================ */
+
+/* Nome in homepage */
 .home-name {
   text-align: center;
   font-size: 2.6rem;
   margin-top: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-weight: 600;
 }
 
-
-.home-avatar {
-  display: block;
-  margin: 2rem auto 1.5rem;
-  width: 220px;      // ← DIMENSIONE FOTO
-  height: 220px;     // ← tienila uguale per restare quadrata
+/* Foto flottante con wrapping reale */
+.home-float-img {
+  float: left;
+  width: 260px;          /* DIMENSIONE FOTO */
+  height: 260px;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 10px;
+  margin: 0.5rem 2rem 1.2rem 0;
 }
 
-.home-hero {
-  display: flex;
-  align-items: flex-start;
-  gap: 2.2rem;
-  margin-top: 2.5rem;
-  margin-bottom: 2rem;
+/* Chiude il float */
+.home-clear {
+  clear: both;
 }
 
-.home-hero__img {
-  width: 240px;     /* cambia qui la dimensione */
-  height: 240px;
-  object-fit: cover;
-  border-radius: 6px;
-  flex: 0 0 auto;
-}
-
-.home-hero__text {
-  flex: 1 1 auto;
-  max-width: 52rem; /* opzionale: evita righe troppo lunghe */
-}
-
-/* Mobile: impila */
+/* Mobile: foto sopra, niente float */
 @media (max-width: 768px) {
-  .home-hero {
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-  }
-
-  .home-hero__img {
-    width: 180px;
-    height: 180px;
-  }
-
-  .home-hero__text {
-    max-width: 100%;
+  .home-float-img {
+    float: none;
+    display: block;
+    margin: 1.5rem auto 1.25rem;
+    width: 190px;
+    height: 190px;
   }
 }
+
 
 /* ============================================================
-   4. SIDEBAR BIO (a sinistra)
+   5. SIDEBAR BIO (non usata ora, ma lasciata pulita)
    ============================================================ */
-/* Nome dell'autore */
 .author__name {
-  font-size: 1.8rem !important;     /* aumenta qui → es. 1.4rem, 1.5rem */
+  font-size: 1.4rem !important;
   font-weight: 600;
 }
 
-/* Bio breve sotto il nome */
 .author__bio {
-  font-size: 1.1rem !important;     /* aumenta qui */
+  font-size: 1rem !important;
   line-height: 1.6;
 }
 
-/* Link nella sidebar (Email, ADS, Scholar...) */
 .author__urls li a {
-  font-size: 1.6rem !important;     /* aumenta qui */
+  font-size: 1rem !important;
 }
 
-/* Foto più grande */
 .sidebar .author__avatar img {
-  max-width: 300px;                 /* aumentare → es. 300px */
+  max-width: 260px;
 }
 
 
 /* ============================================================
-   5. Rimuovere il link "FEED" nel footer
+   6. FOOTER
    ============================================================ */
 .page__footer a[href$="feed.xml"],
 .page__footer a[href*="feed.xml"] {
