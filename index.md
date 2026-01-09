@@ -10,7 +10,6 @@ layout: single
 
 
 
-# Giulia Giannini
 
 I am a cosmologist working on the large-scale structure of the Universe, with a focus on weak gravitational lensing and galaxy–galaxy lensing. My research aims to test models of dark energy by improving the robustness of weak-lensing analyses, with particular attention to systematic uncertainties and redshift calibration in photometric surveys.
 
