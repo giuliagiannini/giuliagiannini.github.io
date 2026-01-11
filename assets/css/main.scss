@@ -58,6 +58,15 @@ h4 { font-size: 1.15rem; }
   font-weight: 600;
 }
 
+
+.home-meta {
+  text-align: center;
+  font-size: 0.9rem;   /* adjust: 0.85–0.95rem usually works well */
+  line-height: 1.4;
+  margin-top: 0.5rem;
+  color: #555;        /* softer than body text */
+}
+
 /* Foto flottante con wrapping reale */
 .home-float-img {
   float: left;
