@@ -5,10 +5,11 @@ layout: single
 ---
 
 <h1 class="home-name">Giulia Giannini</h1>
-<h3 class="home-name">Juan de la Cierva Fellow</h3>
-<h3 class="home-name">ICE-CSIC</h3>
-<h3 class="home-name">ggiannini at ice.csic.es</h3>
-
+<div class="home-meta">
+  <div>Juan de la Cierva Fellow</div>
+  <div>ICE–CSIC</div>
+  <div>ggiannini at ice.csic.es</div>
+</div>
 
 <img class="home-float-img"
      src="/assets/DSC02069_cropped3_mini_copy.jpeg"
