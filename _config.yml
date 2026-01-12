@@ -16,6 +16,12 @@ plugins:
 sass:
   style: compressed
 
+google_fonts:
+  - name: "Work Sans"
+    weights: "400,500,600"
+  - name: "Source Sans 3"
+    weights: "400,600"
+    
 # Layout di default per le pagine
 defaults:
   - scope:
