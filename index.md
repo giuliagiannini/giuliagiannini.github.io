@@ -12,7 +12,7 @@ layout: single
 </div>
 
 <img class="home-float-img"
-     src="/assets/DSC02069_cropped3_mini_copy.jpeg"
+     src="/assets/DSC02069_cropped3.jpeg"
      alt="Giulia Giannini"
      loading="lazy" />
 
