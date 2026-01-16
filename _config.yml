@@ -11,6 +11,8 @@ baseurl: ""
 # GitHub Pages settings
 plugins:
   - jekyll-include-cache
+  - jekyll-remote-theme
+
 
 # Sass settings for custom CSS
 sass:
