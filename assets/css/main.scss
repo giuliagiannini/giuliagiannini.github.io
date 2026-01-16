@@ -1,127 +1,88 @@
 ---
-# Only the main Sass file needs front matter
+# Front matter required by Jekyll
 ---
 
-@charset "utf-8";
-
-/* Import base theme */
 @import "minimal-mistakes";
 
 /* ============================================================
-   1. FONT GLOBALE (paragrafi, testo normale)
+   GLOBAL WIDTH OVERRIDE
    ============================================================ */
-html {
-  font-size: 15px;
-}
 
-body,
-.page__content,
-.page__content p,
-.sidebar {
-  font-size: 1rem !important;
-  line-height: 1.6;
+/* Make the central content column wider */
+.page__inner-wrap {
+  max-width: 1400px;   /* default ~1280px; adjust if needed */
 }
-
 
 /* ============================================================
-   2. TITOLI (H1, H2, H3...)
-   ============================================================ */
-h1 { font-size: 1.9rem; }
-h2 { font-size: 1.6rem; }
-h3 { font-size: 1.35rem; }
-h4 { font-size: 1.15rem; }
-
-
-/* ============================================================
-   3. NAVBAR IN ALTO (header menu)
-   ============================================================ */
-.masthead__menu-item a {
-  font-size: 1.2rem !important;   /* 1.2–1.3 è elegante, 1.8 era troppo */
-  font-weight: 500;
-}
-
-.site-title {
-  font-size: 2rem !important;
-}
-
-
-/* ============================================================
-   4. HOMEPAGE
+   HOMEPAGE: NAME + META
    ============================================================ */
 
-/* Nome in homepage */
 .home-name {
   text-align: center;
-  font-size: 3rem;
-  margin-top: 2rem;
-  margin-bottom: 0.2rem;
-  // font-family: "Work Sans", sans-serif;
-  font-weight: 500;
+  margin-bottom: 0.4rem;
 }
-
 
 .home-meta {
   text-align: center;
-  font-size: 0.9rem;   /* adjust: 0.85–0.95rem usually works well */
-  line-height: 1.6;
-  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
   margin-bottom: 2rem;
-  color: #555;        /* softer than body text */
 }
 
-/* Foto flottante con wrapping reale */
-.home-float-img {
-  float: left;
-  width: 260px;          /* DIMENSIONE FOTO */
-  height: 260px;
+.home-meta div {
+  line-height: 1.3;
+}
+
+/* ============================================================
+   HOMEPAGE: SPLIT LAYOUT (PHOTO + TEXT)
+   ============================================================ */
+
+.home-split {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.2rem;
+  margin-top: 1.5rem;
+}
+
+/* Photo column */
+.home-split__photo {
+  flex: 0 0 300px;   /* width of the image column */
+}
+
+.home-split__photo img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 10px;
-  margin: 0.5rem 2rem 1.2rem 0;
+  display: block;
 }
 
-/* Chiude il float */
-.home-clear {
-  clear: both;
+/* Text column */
+.home-split__text {
+  flex: 1 1 auto;
+  min-width: 0; /* prevents flex overflow */
 }
 
-/* Mobile: foto sopra, niente float */
-@media (max-width: 768px) {
-  .home-float-img {
-    float: none;
-    display: block;
-    margin: 1.5rem auto 1.25rem;
-    width: 190px;
-    height: 190px;
+/* Improve paragraph spacing slightly on homepage */
+.home-split__text p {
+  margin-bottom: 1.1em;
+}
+
+/* ============================================================
+   RESPONSIVE: STACK ON MOBILE
+   ============================================================ */
+
+@media (max-width: 900px) {
+  .home-split {
+    flex-direction: column;
+    align-items: center;
   }
-}
 
+  .home-split__photo {
+    width: 210px;
+  }
 
-/* ============================================================
-   5. SIDEBAR BIO (non usata ora, ma lasciata pulita)
-   ============================================================ */
-.author__name {
-  font-size: 1.4rem !important;
-  font-weight: 600;
-}
-
-.author__bio {
-  font-size: 1rem !important;
-  line-height: 1.6;
-}
-
-.author__urls li a {
-  font-size: 1rem !important;
-}
-
-.sidebar .author__avatar img {
-  max-width: 260px;
-}
-
-
-/* ============================================================
-   6. FOOTER
-   ============================================================ */
-.page__footer a[href$="feed.xml"],
-.page__footer a[href*="feed.xml"] {
-  display: none !important;
+  .home-split__text {
+    width: 100%;
+  }
 }
