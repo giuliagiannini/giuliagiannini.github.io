@@ -181,17 +181,33 @@ a { color: var(--link); }
 .card-body h2 { margin-top: 0; }
 .links a { margin-right: 12px; }
 
+/* Photo-z special layout */
+.card-photoz {
+  grid-template-columns: 1.1fr 1.9fr;
+}
+
 .photoz-plots {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
-  margin-top: 12px;
+  align-items: start;
 }
 
 .photoz-plots img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+/* Mobile: stack images */
+@media (max-width: 900px) {
+  .card-photoz {
+    grid-template-columns: 1fr;
+  }
+
+  .photoz-plots {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Publications */
