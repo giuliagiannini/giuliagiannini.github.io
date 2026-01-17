@@ -135,6 +135,13 @@ a { color: var(--link); }
 }
 .home-text { min-width: 0; }
 
+.home-photo-meta {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
 /* Research cards */
 .cards {
   display: grid;
