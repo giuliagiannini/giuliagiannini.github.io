@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Publications | Giulia Giannini</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Home">
+      <img class="avatar" src="assets/img/avatar.jpg" alt="Foto profilo" />
+      <span class="brand-name">Giulia Giannini</span>
+    </a>
+
+    <nav class="nav">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="cv.html">CV</a>
+      <a class="nav-link" href="research.html">Research</a>
+      <a class="nav-link active" href="publications.html">Publications</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <article class="content">
+      <h1>Publications</h1>
+      <p>
+        Puoi mettere una frase e poi una lista. Se vuoi, puoi anche aggiungere un link a ADS/Google Scholar.
+      </p>
+
+      <ul class="pub-list">
+        <li>
+          <span class="pub-title">Titolo paper 1</span><br />
+          <span class="pub-meta">Autori, anno, journal</span><br />
+          <a href="#" target="_blank" rel="noopener">ADS</a>
+          <a href="#" target="_blank" rel="noopener">arXiv</a>
+        </li>
+        <li>
+          <span class="pub-title">Titolo paper 2</span><br />
+          <span class="pub-meta">Autori, anno, journal</span><br />
+          <a href="#" target="_blank" rel="noopener">ADS</a>
+          <a href="#" target="_blank" rel="noopener">arXiv</a>
+        </li>
+      </ul>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Giulia Giannini</span>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
