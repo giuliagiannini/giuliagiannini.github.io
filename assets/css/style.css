@@ -120,7 +120,7 @@ a { color: var(--link); }
   max-width: var(--content-max);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1.2fr;
+  grid-template-columns: 1fr 1.5fr;
   gap: 28px;
   align-items: start;
 }
