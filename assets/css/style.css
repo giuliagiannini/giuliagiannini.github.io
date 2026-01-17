@@ -139,7 +139,20 @@ a { color: var(--link); }
   margin-top: 10px;
   font-size: 0.9em;
   color: var(--muted);
+}
+
+.meta-line {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   line-height: 1.4;
+}
+
+.meta-line svg {
+  width: 14px;
+  height: 14px;
+  fill: var(--topbar-bg); /* stesso verde della banda */
+  flex-shrink: 0;
 }
 
 /* Research cards */
