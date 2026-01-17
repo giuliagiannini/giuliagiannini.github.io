@@ -1,0 +1,184 @@
+/* Import font (puoi cambiarli a piacere) */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@500;600;700&display=swap");
+
+:root {
+  /* Colori */
+  --topbar-bg: #AEC0AA;      /* banda in alto verdina */
+  --page-bg: #ffffff;
+  --text: #1b1b1b;
+  --muted: #5b5b5b;
+  --link: #1b1b1b;
+  --card-border: rgba(0,0,0,0.10);
+
+  /* Font: cambia qui per cambiare tutto il sito */
+  --font-body: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --font-headings: "Playfair Display", Georgia, "Times New Roman", serif;
+
+  /* Dimensioni: controlla qui */
+  --fs-body: 17px;
+  --fs-h1: 34px;
+  --fs-h2: 22px;
+  --lh-body: 1.6;
+
+  /* Larghezza testo (quello che intendi tu) */
+  --content-max: 880px;  /* aumenta/diminuisci per allargare/restringere il testo */
+  --page-pad: 24px;
+
+  /* Spaziatura topbar */
+  --topbar-height: 64px;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--text);
+  background: var(--page-bg);
+}
+
+/* Top bar */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: var(--topbar-height);
+  background: var(--topbar-bg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--page-pad);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--text);
+  min-width: 0;
+}
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 1px solid rgba(0,0,0,0.12);
+}
+.brand-name {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Nav */
+.nav {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: var(--text);
+  padding: 8px 10px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.nav-link:hover {
+  background: rgba(255,255,255,0.35);
+}
+.nav-link.active {
+  background: rgba(255,255,255,0.55);
+}
+
+/* Page layout */
+.page {
+  padding: 36px var(--page-pad) 56px;
+}
+.content {
+  max-width: var(--content-max);
+  margin: 0 auto;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: var(--font-headings);
+  margin: 0 0 14px;
+  line-height: 1.15;
+}
+h1 { font-size: var(--fs-h1); }
+h2 { font-size: var(--fs-h2); margin-top: 26px; }
+p { margin: 0 0 14px; color: var(--text); }
+a { color: var(--link); }
+
+/* Home grid */
+.home-grid {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 28px;
+  align-items: start;
+}
+.home-photo-wrap { width: 100%; }
+.home-photo {
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 1px solid var(--card-border);
+}
+.home-text { min-width: 0; }
+
+/* Research cards */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 18px;
+}
+.card {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 16px;
+  padding: 14px;
+  border: 1px solid var(--card-border);
+  border-radius: 18px;
+  background: #fff;
+}
+.card-img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid var(--card-border);
+}
+.card-body h2 { margin-top: 0; }
+.links a { margin-right: 12px; }
+
+/* Publications */
+.pub-list {
+  padding-left: 18px;
+}
+.pub-title { font-weight: 600; }
+.pub-meta { color: var(--muted); font-size: 0.95em; }
+
+/* Footer */
+.footer {
+  padding: 24px var(--page-pad);
+  border-top: 1px solid rgba(0,0,0,0.08);
+  color: var(--muted);
+  font-size: 0.95em;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .home-grid { grid-template-columns: 1fr; }
+  .card { grid-template-columns: 1fr; }
+  .topbar { height: auto; padding: 12px var(--page-pad); gap: 10px; flex-wrap: wrap; }
+  .nav { flex-wrap: wrap; }
+}
