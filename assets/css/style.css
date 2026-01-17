@@ -125,7 +125,7 @@ a { color: var(--link); }
   gap: 28px;
   align-items: start;
 }
-.home-photo-wrap { width: 100%; }
+.home-photo-wrap { width: 90%; }
 .home-photo {
   width: 100%;
   max-height: auto;
