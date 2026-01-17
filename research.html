@@ -25,92 +25,81 @@
     <article class="content">
       <h1>Research</h1>
       <p>
-        My research focuses on using large galaxy surveys to understand how the Universe is structured and how it has evolved over time. I work mainly with data from the Dark Energy Survey (DES), where I develop and validate methods that turn imaging observations of galaxies into precise cosmological measurements. My work spans several stages of the analysis process, from estimating galaxy distances to testing and interpreting gravitational lensing signals. A central goal of my research is to ensure that cosmological results are both accurate and robust against observational uncertainties. I contributed extensively to the DES Year 3 analysis (published in 2022) and to the final DES Year 6 analysis (published in 2026).
-      <h2>Weak Lensing</h2>
-               
-          Weak gravitational lensing refers to the tiny distortions in the shapes of distant galaxies caused by the matter distributed between them and the observer. Although these distortions are very small, they carry valuable information about the distribution of dark matter and the evolution of cosmic structure. By measuring these effects statistically across millions of galaxies, we can test models of cosmic acceleration and the growth of structure. My work in this area focuses on ensuring that weak-lensing measurements are accurate and well understood, particularly with respect to observational effects and uncertainties in galaxy distances.
-
-      <img src="_data/figure_wl.jpg" alt="Weak lensing figure placeholder" style="max-width:100%; height:auto;">
+        I work on cosmology with large galaxy surveys, focusing on how we turn imaging data into reliable measurements of the Universe. Much of my work is within the Dark Energy Survey (DES), where I develop and validate methods that make lensing and distance estimates robust to observational effects. I contributed extensively to both DES Year 3 (published in 2022) and the final DES Year 6 analysis (published in 2026).
+      </p>
 
       <section class="cards">
+
+        <!-- Block 1: WL -->
         <article class="card">
-          <img class="card-img" src="assets/img/home-photo.jpg" alt="Immagine progetto" />
+          <img class="card-img" src="_data/figure_wl.jpg" alt="Weak lensing" />
           <div class="card-body">
-            <h2>DES Year 6: Weak Lensing Cosmology</h2>
+            <h2>Weak Lensing</h2>
             <p>
-The DES Year 6 (Y6) weak-lensing analysis is the most precise cosmic shear measurement produced by the collaboration. I contributed to the development and validation of this analysis, with a focus on testing the measurement against observational effects and uncertainties in galaxy properties. The Y6 dataset provides some of the strongest constraints from DES on the large-scale structure of the Universe and plays a key role in the final cosmological results.
+              Weak lensing uses tiny, coherent distortions in galaxy shapes to learn how matter, including dark matter, is distributed across the Universe. Because the effect is subtle, the key is careful measurement and extensive validation.
+            </p>
+            <p>
+              In DES, I worked on building and testing weak-lensing analyses so that the final results are stable against observational uncertainties and suitable for cosmology.
             </p>
             <p class="links">
-              <a href="#" target="_blank" rel="noopener">Paper</a>
-              <a href="#" target="_blank" rel="noopener">Code</a>
+              <a href="#" target="_blank" rel="noopener">Selected paper</a>
             </p>
           </div>
         </article>
 
+        <!-- Block 2: GGL -->
         <article class="card">
-          <img class="card-img" src="assets/img/home-photo.jpg" alt="Immagine progetto" />
+          <img class="card-img" src="_data/figure_ggl.jpg" alt="Galaxy-galaxy lensing" />
           <div class="card-body">
-            <h2>DES Year 6: Galaxy-galaxy lensing</h2>
+            <h2>Galaxy–Galaxy Lensing</h2>
             <p>
-Galaxy–galaxy lensing measures how foreground galaxies distort the shapes of background galaxies, providing a direct link between visible galaxies and the underlying dark matter. In DES Year 6, I led the measurement and validation of this signal across multiple galaxy samples and redshift ranges. This work included extensive testing of measurement stability and uncertainty estimates. The resulting dataset is the most precise galaxy–galaxy lensing measurement from DES and is an essential component of its combined cosmological analyses.
+              Galaxy–galaxy lensing connects foreground galaxies to the matter around them by measuring how they distort background galaxies. It is a direct way to link visible galaxies to the underlying dark matter distribution.
+            </p>
+            <p>
+              For DES Year 6, I led the measurement and validation work for the galaxy–galaxy lensing signal across multiple samples and redshift bins.
             </p>
             <p class="links">
-              <a href="#" target="_blank" rel="noopener">Paper</a>
-              <a href="#" target="_blank" rel="noopener">Code</a>
+              <a href="#" target="_blank" rel="noopener">Selected paper</a>
             </p>
           </div>
         </article>
-        
-         <h2>Photometric redshift calibration</h2>
 
-Large imaging surveys such as DES observe hundreds of millions of galaxies, but their distances cannot be measured individually using spectroscopy. Instead, distances are estimated from galaxy colours, and these estimates must be carefully calibrated to avoid biases in cosmological results. My research focuses on developing and validating methods to determine reliable distance distributions for galaxy samples used in cosmology. This work combines information from deep survey fields and from the spatial clustering of galaxies, and it has been applied to both DES Year 3 and Year 6 analyses.
-
-
-
-
-        <p>I have led efforts in:</p>
-          <ul>
-            <li>Calibrating photometric redshift distributions for cosmological analyses</li>
-            <li>Characterizing uncertainties from spectroscopic and deep photometric samples</li>
-            <li>Developing and validating SOM-based methods (SOMPZ) and related techniques</li>
-            <li>Studying spatial and sample-dependent systematics</li>
-          </ul>
+        <!-- Block 3: Photo-z -->
         <article class="card">
-          <img class="card-img" src="assets/img/home-photo.jpg" alt="Immagine progetto" />
+          <img class="card-img" src="_data/figure_photoz_y6.jpg" alt="Photometric redshift calibration" />
           <div class="card-body">
-            <h2>Photometric redshift calibration (SOMPZ)</h2>
+            <h2>Photometric Redshift Calibration</h2>
             <p>
-For DES Year 6, I led the development and validation of a method known as SOMPZ (Self-Organizing Map Photometric Redshift) to calibrate the distances of lens galaxies. The approach groups galaxies with similar observed properties and uses deeper data to infer their distance distributions. This calibration is essential for interpreting galaxy–galaxy lensing and galaxy clustering measurements and for ensuring reliable cosmological results.
+              In large imaging surveys we estimate galaxy distances from their colours. To use these data for precision cosmology, we need accurate distance distributions and realistic uncertainties.
+            </p>
+            <p>
+              My work develops and validates calibration methods that combine information from deep fields and from galaxy clustering. In DES, I led SOM-based calibration work (SOMPZ) for lens samples and co-led clustering-based calibration (wz) for source samples.
+            </p>
+
+            <h3 style="margin-top:14px;">SOMPZ</h3>
+            <p>
+              A deep-field, SOM-based approach that groups similar galaxies and uses deeper data to infer their distance distribution, with uncertainties propagated to the final analysis.
+            </p>
             <p class="links">
-              <a href="#" target="_blank" rel="noopener">Paper</a>
+              <a href="https://arxiv.org/abs/2509.07964" target="_blank" rel="noopener">Giannini et al., 2025</a>
             </p>
-          </div>
-        </article>
 
-        <article class="card">
-          <img class="card-img" src="assets/img/home-photo.jpg" alt="Immagine progetto" />
-          <div class="card-body">
-            <h2>Photometric redshift calibration (SOMPZ)</h2>
+            <h3 style="margin-top:14px;">Clustering redshifts (wz)</h3>
             <p>
-In DES Year 3, I led the calibration of lens galaxy samples using a hybrid approach that combined deep-field information with clustering-based methods. This work produced precise distance distributions for the DES lens samples and allowed their uncertainties to be consistently propagated into cosmological analyses. The success of this approach established it as the reference method for subsequent DES studies.
-              <a href="#" target="_blank" rel="noopener">Paper</a>
+              A complementary approach that uses how galaxies cluster on the sky to statistically infer distance information, and helps validate and strengthen the overall calibration.
             </p>
-          </div>
-        </article>
-
-        <article class="card">
-          <img class="card-img" src="assets/img/home-photo.jpg" alt="Immagine progetto" />
-          <div class="card-body">
-            <h2>Photometric redshift calibration (SOMPZ)</h2>
-            <p>
-In DES Year 3, I co-led the calibration of source galaxy distances using clustering redshifts. This method infers distance distributions by comparing the spatial distribution of photometric galaxies with that of spectroscopic samples. I contributed to developing and validating the methodology and to combining it with deep-field information, making it a key component of the DES weak-lensing and galaxy–galaxy lensing analyses.
             <p class="links">
-              <a href="#" target="_blank" rel="noopener">Paper</a>
+              <a href="https://arxiv.org/abs/2012.08569" target="_blank" rel="noopener">Gatti &amp; Giannini et al., 2020</a>
+            </p>
+
+            <!-- Optional: second plot under the same block -->
+            <img src="_data/figure_photoz_y3.jpg" alt="Photometric redshift calibration (additional)" style="max-width:100%; height:auto; margin-top:12px;" />
+            <p class="links">
+              <a href="https://arxiv.org/abs/2209.05853" target="_blank" rel="noopener">Giannini et al., 2022</a>
             </p>
           </div>
         </article>
 
-        
       </section>
     </article>
   </main>
