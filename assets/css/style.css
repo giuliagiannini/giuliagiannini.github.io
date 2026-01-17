@@ -181,6 +181,19 @@ a { color: var(--link); }
 .card-body h2 { margin-top: 0; }
 .links a { margin-right: 12px; }
 
+.photoz-plots {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.photoz-plots img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 /* Publications */
 .pub-list {
   padding-left: 18px;
