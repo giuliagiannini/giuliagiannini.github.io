@@ -151,7 +151,7 @@ a { color: var(--link); }
 .meta-line svg {
   width: 14px;
   height: 14px;
-  fill: var(--topbar-bg); /* stesso verde della banda */
+  color: var(--topbar-bg); /* stesso verde della banda */
   flex-shrink: 0;
 }
 
