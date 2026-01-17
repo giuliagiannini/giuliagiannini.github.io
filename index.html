@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Giulia Giannini</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Home">
+      <img class="avatar" src="assets/img/avatar.jpg" alt="Foto profilo" />
+      <span class="brand-name">Giulia Giannini</span>
+    </a>
+
+    <nav class="nav">
+      <a class="nav-link active" href="index.html">Home</a>
+      <a class="nav-link" href="cv.html">CV</a>
+      <a class="nav-link" href="research.html">Research</a>
+      <a class="nav-link" href="publications.html">Publications</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="home-grid">
+      <div class="home-photo-wrap">
+        <img class="home-photo" src="assets/img/home-photo.jpg" alt="Foto di Giulia" />
+      </div>
+
+      <div class="home-text">
+        <h1>Cosmologist working on the large-scale structure of the Universe</h1>
+        <p>
+          Inserisci qui il tuo testo di presentazione. Puoi parlare di DES, weak lensing,
+          photometric redshifts, simulation-based inference, ecc.
+        </p>
+        <p>
+          Puoi anche aggiungere un paragrafo più “story” senza diventare troppo personale.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Giulia Giannini</span>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
