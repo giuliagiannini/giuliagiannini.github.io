@@ -66,44 +66,51 @@
 
         <!-- Block 3: Photo-z -->
         <article class="card card-photoz">
-          <div class="photoz-plots">
+        
+          <!-- SOMPZ: immagine a sinistra, testo a destra -->
+          <div class="photoz-row">
             <img src="_data/figure_photoz_y6.jpg" alt="Photometric redshift calibration Y6" />
+        
+            <div class="photoz-text">
+              <h2>Photometric Redshift Calibration</h2>
+              <h3>SOMPZ</h3>
+              <p>
+                In large imaging surveys, galaxy distances are estimated from their colours.
+                SOMPZ is a deep-field method that groups similar galaxies and uses deeper data
+                to infer their distance distributions, with uncertainties propagated into the
+                final cosmological analysis.
+              </p>
+              <p class="links">
+                <a href="https://arxiv.org/abs/2509.07964" target="_blank" rel="noopener">
+                  Giannini et al., 2025
+                </a>
+              </p>
+            </div>
+          </div>
+        
+          <!-- WZ: testo a sinistra, immagine a destra -->
+          <div class="photoz-row reverse">
+            <div class="photoz-text">
+              <h3>Clustering redshifts (wz)</h3>
+              <p>
+                A complementary approach that uses galaxy clustering to statistically infer
+                redshift information and validate photometric estimates, playing a key role
+                in DES Year 3 analyses.
+              </p>
+              <p class="links">
+                <a href="https://arxiv.org/abs/2012.08569" target="_blank" rel="noopener">
+                  Gatti &amp; Giannini et al., 2020
+                </a>
+                ·
+                <a href="https://arxiv.org/abs/2209.05853" target="_blank" rel="noopener">
+                  Giannini et al., 2022
+                </a>
+              </p>
+            </div>
+        
             <img src="_data/figure_photoz_y3.jpg" alt="Photometric redshift calibration Y3" />
           </div>
         
-          <div class="card-body">
-            <h2>Photometric Redshift Calibration</h2>
-        
-            <p>
-              In large imaging surveys, galaxy distances are estimated from their colours rather than measured directly.
-              Accurate calibration of these distances is essential for reliable cosmological results.
-            </p>
-        
-            <p>
-              My work develops and validates calibration methods that combine information from deep survey fields and
-              from galaxy clustering. These approaches were applied in both DES Year 3 and Year 6 analyses.
-            </p>
-        
-            <h3>SOMPZ</h3>
-            <p>
-              A deep-field, SOM-based approach used to infer redshift distributions for lens samples, with uncertainties
-              propagated into the final cosmological analysis.
-            </p>
-            <p class="links">
-              <a href="https://arxiv.org/abs/2509.07964" target="_blank" rel="noopener">Giannini et al., 2025</a>
-            </p>
-        
-            <h3>Clustering redshifts (wz)</h3>
-            <p>
-              A complementary method that uses galaxy clustering to statistically infer redshift information and validate
-              photometric estimates.
-            </p>
-            <p class="links">
-              <a href="https://arxiv.org/abs/2012.08569" target="_blank" rel="noopener">Gatti &amp; Giannini et al., 2020</a>
-              ·
-              <a href="https://arxiv.org/abs/2209.05853" target="_blank" rel="noopener">Giannini et al., 2022</a>
-            </p>
-          </div>
         </article>
 
       </section>
