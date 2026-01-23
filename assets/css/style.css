@@ -142,7 +142,7 @@ a { color: var(--link); }
   color: var(--muted);
 }
 .figure-normal {
-  max-width: 250px;        /* controlla davvero la dimensione */
+  width: 60%;
   margin: 1.5rem auto;    /* centrata sotto il testo */
 }
 
