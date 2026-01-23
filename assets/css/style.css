@@ -194,7 +194,7 @@ a { color: var(--link); }
 .card-img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 14px;
   border: 1px solid var(--card-border);
 }
