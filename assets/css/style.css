@@ -135,12 +135,19 @@ a { color: var(--link); }
 }
 .home-text { min-width: 0; }
 
+
 .home-photo-meta {
   margin-top: 10px;
   font-size: 0.9em;
   color: var(--muted);
 }
-
+.normal-photo {
+  width: 60%;
+  max-height: auto;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 1px solid var(--card-border);
+}
 .meta-line {
   display: flex;
   align-items: center;
